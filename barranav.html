@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title> : ) </title>
+	<style type="text/css">
+	html{
+		scroll-behavior: smooth;
+		background-color: #B0E0E6;
+	}
+	  a{
+	  	display: inline-block;
+	  	width: auto;
+	  	text-decoration: none;
+	  	font-size: 1.3em;
+	  }
+	  nav, scroll-container{
+	  	display: block;
+	  	margin: 0 auto;
+	  	text-align: center;
+	  }
+	  nav{
+	  	background-color: white;
+	  	width: 600px;
+	  	padding: 5px;
+	  	border: 1px solid black;
+	  }
+	  scroll-container{
+	  	width: 800px;
+	  	height: auto;
+	  	position: relative;
+	  }
+	  scroll-page{
+	  	background-color: white;
+	  	border: 1px solid blue;
+	  	display: flex;
+	  	align-items: center;
+	  	justify-content: center;
+	  	height: 100%;
+	  	font-size: 2em;
+	  	margin: 15px;
+	  }
+	  #topo{
+	  	position: absolute;
+	  	bottom: 15px;
+	  	right: 25px;
+	  }
+	</style>
+</head>
+<body>
+    <nav>
+      <a href="#page01">Seção 01</a>
+
+      <a href="#page02">Seção 02</a>
+
+      <a href="#page03">Seção 03</a>
+    </nav>
+
+    <scroll-container id="container">
+      <scroll-page id="page01">
+      	<h2>Conteúdo 01</h2>
+      Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+      tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+      quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+      consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
+      cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
+      proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+      </scroll-page>
+
+      <scroll-page id="page02">
+      	<h2>Conteúdo 02</h2>
+      Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+      tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+      quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+      consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
+      cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
+      proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+	  <a href="#page01">Seção 01</a>
+      </scroll-page>
+
+      <scroll-page id="page03">
+      	<h2>Conteúdo 03</h2>
+      Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+      tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+      quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+      consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
+      cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
+      proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+	  <a href="#page02">Seção 02</a>
+	  <br>
+	  <br>
+      </scroll-page>
+      <a id="topo" href="#top">Home</a>
+    </scroll-container>
+</body>
+</html>
